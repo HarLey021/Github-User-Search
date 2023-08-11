@@ -31,8 +31,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/HarLey021/Github-User-Search)
+- Live Site URL: (https://github-user-search-sage.vercel.app/)
 
 ## My process
 
