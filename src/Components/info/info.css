@@ -1,0 +1,30 @@
+.infoContainer {
+  width: 100%;
+  height: 517px;
+  border-radius: 15px;
+  background-color: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  padding: 32px 24px 0 24px;
+}
+
+.infoDark {
+  background-color: #1e2a47 !important;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .infoContainer {
+    width: 100%;
+    height: 481px;
+    background: #fefefe;
+    padding: 40px 40px 0 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .infoContainer {
+    height: 444px;
+    padding: 48px 48px 0 48px;
+    position: relative;
+  }
+}

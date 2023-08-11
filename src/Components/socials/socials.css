@@ -1,0 +1,82 @@
+.locationContainer,
+.githubContainer,
+.twitterContainer,
+.companyContainer {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.locationName,
+.githubLink,
+.twitterLink,
+.companyName {
+  color: #4b6a9b;
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 19.25px;
+  text-decoration: none;
+}
+
+.githubLink,
+.twitterLink,
+.companyName {
+  margin-left: 13px;
+}
+
+.socialsDark path {
+  fill: #ffffff;
+}
+
+.socialsDark {
+  color: #ffffff;
+}
+
+.githubLink {
+  width: 235px;
+  overflow: auto;
+}
+
+.notAvailable {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .socialsContainer {
+    display: flex;
+    gap: 65px;
+  }
+
+  .locationName,
+  .githubLink,
+  .twitterLink,
+  .companyName {
+    font-size: 15px;
+  }
+
+  .linkLogo {
+    height: 20px;
+  }
+
+  .twitterLink,
+  .companyName {
+    margin-left: 16px;
+  }
+
+  .companyLogo {
+    height: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .socialsContainer {
+    gap: 62px;
+    position: absolute;
+    top: 308px;
+    left: 202px;
+  }
+
+  .githubLink:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,94 @@
+.activityContainer {
+  background: #f6f8ff;
+  width: 100%;
+  height: 85px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reposContainer {
+  width: 79px;
+}
+
+.followersContainer {
+  width: 81px;
+}
+
+.followingContainer {
+  width: 89px;
+}
+
+.repos,
+.followers,
+.following {
+  width: 100%;
+  color: #4b6a9b;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.reposNum,
+.followersNum,
+.followingNum {
+  width: 100%;
+  color: #2b3442;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dark {
+  background-color: #141d2f;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .activityContainer {
+    margin-bottom: 30px;
+    justify-content: space-around;
+  }
+
+  .reposContainer {
+    width: 40px;
+  }
+
+  .followersContainer {
+    width: 72px;
+  }
+
+  .followingContainer {
+    width: 72px;
+  }
+
+  .repos,
+  .followers,
+  .following {
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 1px;
+  }
+
+  .reposNum,
+  .followersNum,
+  .followingNum {
+    text-align: left;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .activityContainer {
+    width: 480px;
+    margin-bottom: 37px;
+    position: absolute;
+    top: 186px;
+    left: 202px;
+  }
+}

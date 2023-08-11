@@ -1,0 +1,54 @@
+.headerContainer {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.logoName {
+  color: #222731;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.themeContainer {
+  max-width: 100%;
+  height: 20px;
+  display: flex;
+}
+
+.themeName {
+  color: #4b6a9b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  margin-right: 16px;
+}
+
+.dark {
+  color: #ffffff;
+}
+
+@media (min-width: 1440px) {
+  .lightName:hover {
+    cursor: pointer;
+    color: #222731;
+  }
+
+  .darkName:hover {
+    cursor: pointer;
+    color: #90a4d4;
+  }
+
+  .moonSvg:hover path {
+    cursor: pointer;
+    fill: #222731;
+  }
+
+  .sunSvg:hover path {
+    cursor: pointer;
+    fill: #90a4d4;
+  }
+}

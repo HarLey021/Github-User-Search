@@ -1,0 +1,30 @@
+.aboutDev {
+  color: #4b6a9b;
+  max-height: 50px;
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 23px;
+  overflow: auto;
+}
+
+.bioDark {
+  color: #ffffff;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .aboutDev {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .aboutDev {
+    position: absolute;
+    top: 129px;
+    left: 202px;
+  }
+}
