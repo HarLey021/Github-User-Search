@@ -32,7 +32,7 @@ Users will be able to:
 ### Links
 
 - Solution URL: (https://github.com/HarLey021/Github-User-Search)
-- Live Site URL: (https://github-user-search-sage.vercel.app/)
+- Live Site URL: (https://github-user-search-jade-one.vercel.app/)
 
 ## My process
 
